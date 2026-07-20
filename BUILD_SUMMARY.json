@@ -1,0 +1,24 @@
+{
+  "package": "GC-Hierarchical 1.0-alpha3",
+  "stage": 3,
+  "expected_tests": 16,
+  "science_rows": 1256,
+  "confirmed_rows": 557,
+  "background_rows": 2844,
+  "new_interfaces": [
+    "HierarchicalModelConfig",
+    "StellarPopulationConfig",
+    "MixtureConfig",
+    "InferenceConfig",
+    "ModelComponents",
+    "ComponentFactory",
+    "V5ComponentFactory",
+    "Optimizer",
+    "Sampler",
+    "V5Optimizer",
+    "EmceeSampler",
+    "HierarchicalGCModel"
+  ],
+  "backward_compatible_step2_adapter": true,
+  "frozen_v5_science_changed": false
+}

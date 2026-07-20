@@ -1,0 +1,26 @@
+{
+  "name": "NGC 5128",
+  "aliases": [
+    "Centaurus A",
+    "Cen A"
+  ],
+  "center": {
+    "ra_deg": 201.3651,
+    "dec_deg": -43.0191
+  },
+  "distance_modulus": 27.91,
+  "foreground_extinction": {
+    "ebv": 0.115,
+    "A_over_EBV_g": 3.303,
+    "A_over_EBV_r": 2.285
+  },
+  "filters": [
+    "megacam_g",
+    "megacam_r"
+  ],
+  "validated_likelihood": {
+    "implementation": "v5",
+    "science_config": "likelihood_v5/config.json",
+    "fast_config": "likelihood_v5/config_fast.json"
+  }
+}

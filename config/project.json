@@ -1,0 +1,24 @@
+{
+  "project": {
+    "name": "GC-Hierarchical",
+    "version": "1.0-alpha3",
+    "default_galaxy": "NGC5128",
+    "results_root": "results",
+    "log_level": "INFO",
+    "seed": 5128,
+    "architecture_stage": 3
+  },
+  "galaxies": {
+    "NGC5128": {
+      "directory": "data/NGC5128",
+      "raw_candidate_catalogue": "raw/Hughes/ngc5128_table1_parsed.csv",
+      "raw_confirmed_catalogue": "raw/Hughes/confirmed_gc_match_table.csv",
+      "processed_directory": "processed",
+      "cache_directory": "cache",
+      "galaxy_config": "config.json",
+      "selection_config": "selection.json",
+      "candidate_schema": "schemas/candidate.schema.json",
+      "confirmed_schema": "schemas/confirmed.schema.json"
+    }
+  }
+}

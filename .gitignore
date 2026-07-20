@@ -1,0 +1,63 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Generated scientific outputs
+results/*
+!results/.gitkeep
+chains/
+figures/
+logs/
+output/
+outputs/
+
+# MCMC products
+*.npy
+*.npz
+posterior_samples.csv
+posterior_summary.json
+mcmc_diagnostics.json
+
+# Large or local datasets
+data/*/cache/*
+!data/*/cache/.gitkeep
+data/raw/
+data/NGC5128/cache/
+data/cache/
+data/downloads/
+
+# Editors
+.vscode/
+.idea/
+*~
+*.swp
+

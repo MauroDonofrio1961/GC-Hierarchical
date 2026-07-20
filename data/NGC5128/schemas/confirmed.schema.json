@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "description": "Confirmed NGC 5128 GCs used to calibrate the empirical selection model.",
+  "required_columns": {
+    "RAdeg": "number",
+    "DEdeg": "number",
+    "Rad_arcmin": "number",
+    "gmag": "number_or_missing",
+    "rmag": "number_or_missing",
+    "in_candidate_catalog": "boolean_like",
+    "selected_gold_silver_085": "boolean_like"
+  },
+  "ranges": {
+    "RAdeg": [
+      0.0,
+      360.0
+    ],
+    "DEdeg": [
+      -90.0,
+      90.0
+    ],
+    "Rad_arcmin": [
+      0.0,
+      1000.0
+    ]
+  }
+}

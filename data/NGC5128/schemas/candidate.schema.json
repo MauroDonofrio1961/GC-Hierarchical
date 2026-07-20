@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "description": "Hughes et al. NGC 5128 GC-candidate catalogue used by the validated v5 model.",
+  "required_columns": {
+    "ID": "string_or_integer",
+    "RAdeg": "number",
+    "DEdeg": "number",
+    "gmag": "number",
+    "e_gmag": "number",
+    "rmag": "number",
+    "e_rmag": "number",
+    "TotL": "number",
+    "Rank": "string"
+  },
+  "allowed_rank_values": [
+    "gold",
+    "silver",
+    "bronze",
+    "copper"
+  ],
+  "ranges": {
+    "RAdeg": [
+      0.0,
+      360.0
+    ],
+    "DEdeg": [
+      -90.0,
+      90.0
+    ],
+    "TotL": [
+      0.0,
+      1.0
+    ],
+    "gmag": [
+      0.0,
+      40.0
+    ],
+    "rmag": [
+      0.0,
+      40.0
+    ],
+    "e_gmag": [
+      0.0,
+      10.0
+    ],
+    "e_rmag": [
+      0.0,
+      10.0
+    ]
+  }
+}

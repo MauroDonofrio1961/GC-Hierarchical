@@ -1,0 +1,38 @@
+{
+  "selection_type": "catalogue_threshold",
+  "science": {
+    "ranks": [
+      "gold",
+      "silver"
+    ],
+    "minimum_total_likelihood": 0.85,
+    "g_range": [
+      17.0,
+      22.0
+    ],
+    "r_range": [
+      17.0,
+      22.0
+    ],
+    "color_range": [
+      0.3,
+      1.3
+    ],
+    "radius_range_arcmin": [
+      10.0,
+      150.0
+    ]
+  },
+  "background": {
+    "ranks": [
+      "bronze",
+      "copper"
+    ],
+    "apply_observable_window": true,
+    "maximum_objects": 20000,
+    "random_seed": 5128
+  },
+  "confirmed": {
+    "keep_all_rows": true
+  }
+}

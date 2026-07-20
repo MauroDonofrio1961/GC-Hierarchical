@@ -1,0 +1,13 @@
+{
+  "galaxy": "NGC5128",
+  "raw_inputs": {
+    "data/NGC5128/raw/Hughes/ngc5128_table1_parsed.csv": "a71034c0978f80c794d8584c09eaa044f666f9836ef7787bf06ef0f5df14278d",
+    "data/NGC5128/raw/Hughes/confirmed_gc_match_table.csv": "5dcaf21b00fac0227b9ff7614ec711528661f71e63c91779249bf3bff1a7267f"
+  },
+  "selection_config_sha256": "bd01ea25494b0c1afe039351819f23638bf8921574bad93792ed87338bc64bc0",
+  "outputs": {
+    "science.csv": 1256,
+    "confirmed.csv": 557,
+    "background.csv": 2844
+  }
+}
