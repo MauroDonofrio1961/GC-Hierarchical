@@ -184,6 +184,9 @@ class HierarchicalGCModel:
                 ].to_numpy(),
                 output,
                 sampling.chain,
+                cluster_population=self.components.cluster_population,
+                background_density=self.components.background,
+                posterior=self.components.posterior,
             )
             write_report(
                 optimization.report,
